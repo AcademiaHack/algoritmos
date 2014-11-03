@@ -51,7 +51,7 @@ if (prompt("¿estas pensando en un lenguaje de programación?"+c).toLowerCase()=
         else {
           console.log("mentiroso xd");
         }
-			}
+			}//NO RUBI
       else if (prompt("¿se simboliza por un camello este lenguaje?"+c).toLowerCase()=="si") {
         if (prompt("¿estas pensando en el lenguaje Perl?"+c).toLowerCase()=="si"){
           console.log("Perl divertido!");
@@ -59,7 +59,7 @@ if (prompt("¿estas pensando en un lenguaje de programación?"+c).toLowerCase()=
         else {
           console.log("mentiroso xd");
         }
-      }
+      }//NO PERL
       else if (prompt("¿este lenguaje te exige identar para funcionar correctamente?"+c).toLowerCase()=="si"){
         if (prompt("¿estas pensando en Python?"+c).toLowerCase()=="si"){
           console.log("Python Excelente!");
@@ -67,7 +67,7 @@ if (prompt("¿estas pensando en un lenguaje de programación?"+c).toLowerCase()=
         else{
           console.log("mentiroso xd");
         }
-      }
+      }//NO PYTHON
       else if(prompt("¿este lenguaje se corre en una maquina virtual?"+c).toLowerCase()=="si"){
         if (prompt("¿estas pensando en el lenguaje de programación Java?"+c).toLowerCase()=="si"){
           console.log("Java Increible!");
@@ -75,16 +75,16 @@ if (prompt("¿estas pensando en un lenguaje de programación?"+c).toLowerCase()=
         else{
           console.log("mentiroso xd");
         }
-      }
+      }//NO JAVA
       else{
         if (prompt("¿estas pensando en PHP?"+c).toLowerCase()=="si"){
           console.log("PHP Maravilloso!");
         }
-        else{
+        else{//NO PHP
           console.log("mentiroso xd");
         }
       }
-		}
+		}//NO LENGUAJE INTERPRETADO
     else if (prompt("¿este lenguaje es de tipo compilado?"+c).toLowerCase()=="si"){
       if (prompt("¿este lenguaje fue popularizado por la compañia microsoft?"+c).toLowerCase()=="si"){
         if(prompt("¿estas pensando en Microsoft Visual Basic?"+c).toLowerCase()=="si"){
@@ -93,7 +93,7 @@ if (prompt("¿estas pensando en un lenguaje de programación?"+c).toLowerCase()=
         else {
           console.log("mentiroso xd");
         }
-      }
+      }//NO VISUAL BASIC
       else if (prompt("¿este lenguaje se utilizaba con tarjetas perforadas en sus inicios?"+c).toLowerCase()=="si"){
         if (prompt("¿el lenguaje es FOLTRAN?"+c).toLowerCase()=="si"){
           console.log("FOLTRAN constante innovacion!");
@@ -101,20 +101,20 @@ if (prompt("¿estas pensando en un lenguaje de programación?"+c).toLowerCase()=
         else{
           console.log("xq me engañas?");
         }
-      }
+      }//NO FOLTRAN
       else {
         if (prompt("¿estas pensando en C/C++?"+c).toLowerCase()=="si"){
           console.log("C/C++! Rapidisimo!");
-        }
+        }//NO C/C++
         else{
           console.log("xq insistes en dañar el sistema? jejeje");
         }
       }
-    }
+    }//NO COMPILADO
     else{
       console.log("ni idea en cual piensas men!");
     }
-	}
+	}// NO ORIENTADO OBJETO
   else {
     if(prompt("¿este lenguaje es declarativo?"+c).toLowerCase()=="si"){
       if (prompt("¿este lenguaje es privativo(pago)?"+c).toLowerCase()=="si"){
@@ -124,7 +124,7 @@ if (prompt("¿estas pensando en un lenguaje de programación?"+c).toLowerCase()=
         else{
           console.log("no te gusta pagar por software eh?");
         }
-      }
+      }//NO ORACLE
       else if (prompt("¿el logo de este lenguaje es un elefante?").toLowerCase()=="si"){
         if (prompt("¿estas pensando en Postgresql?"+c).toLowerCase()=="si"){
           console.log("Postgresql Inpresindible!");
@@ -132,21 +132,21 @@ if (prompt("¿estas pensando en un lenguaje de programación?"+c).toLowerCase()=
         else{
           console.log("no Postgresql eh? perdi entonces :(");
         }
-      }
+      }//NO POSTGRESQL
       else{
         if (prompt("¿estas pensando en MySql?"+c).toLowerCase()=="si"){
           console.log("MySql Simple y Funcional!");
-        }
+        }//NO MYSQL
         else{
           console.log("no MySql eh? perdi entonces :(");
         }
       }
-    }
+    }//NO DECLARATIVO
     else{
       console.log("entonces no se nada :(");
     }
   }
-}
+}//NO LENGUAJE PROGRAMACION
 else{
   console.log(":(");
 }
