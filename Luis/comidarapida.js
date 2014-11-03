@@ -32,7 +32,7 @@ if (a1 =="si") {
 			alert("Ve a tu casa a preparar comida .l.");	
 		}
  	} else {
- 		alert("Ve a tu casa a preparar comida .l.");
+ 		alert("Ve a tu casa a preparar comida .l. ");
  	}
 } 
 else if(a1 == "no") {
