@@ -1,4 +1,4 @@
-var warn = " Escriba en minusculas y sin acentos"
+var warn = " Escriba si o no en minusculas y sin acentos"
 var q1 = "¿Tienes hambre?";
 var q2 = "¿Te gusta la comida rápida?";
 var q3 = "¿Que prefieres, dulce o salado?";
@@ -10,47 +10,48 @@ var q8 = "¿Te gusta el picante?";
 var q9 = "¿Que te gusta más, sushi o comida china?";
 var q10 = "¿Que prefieres rolles o conos?";
 var q11 = "¿Que te gusta más burritos o tacos?";
-var q12 = "¿?";
-var q13 = "¿Frio Caliente?";
-var q14 = "¿Frio Caliente?";
-var q15 = "¿Frio Caliente?";
-
-
 
 a1 = prompt(q1 + warn)
-if (a1 =="si")
-{
+if (a1 =="si") {
+ 	//LA PERSONA TIENE HAMBRE
  	a2 = prompt(q2 + warn);
+ 	if (a2 =="si") {
+ 		a3 = prompt(q3);
+ 		if (a3 =="dulce") {
+ 			a4 = prompt(q4);
+ 			if (a4 =="frio") {
+ 				alert("Ve a EFE!!!!!!!");
+ 			} else if (a4 =="caliente") {
+				alert("Ve a Churromania!!!!!!!");
+			} else {
+				alert("Ve a tu casa a preparar comida .l.");	
+			}
+ 		} else if (a3 =="salado") {
+			a5 = prompt(q5);
+		} else {
+			alert("Ve a tu casa a preparar comida .l.");	
+		}
+ 	} else {
+ 		alert("Ve a tu casa a preparar comida .l. ");
+ 	}
 } 
-else
-{
+else if(a1 == "no") {
  	alert("Regresa cuando tengas hambre :)");
 }
+else {
+	alert(warn)
+}
 
-if (a2 =="si") 
-{
-	a3 = prompt(q3);
-}	
-else
-{
-	alert("Ve a tu casa a preparar comida .l.");
-}
-if (a3 =="dulce") 
-{
-	a4 = prompt(q4);
-}
-if (a4 =="frio") 
-{
-	alert("Ve a EFE!!!!!!!");
-}
-if (a4 =="caliente") 
-{
-	alert("Ve a Churromania!!!!!!!");
-}
-if (a3 =="salado") 
-{
-	a5 = prompt(q5);
-}
+
+
+
+
+
+
+
+
+
+
 if (a5 =="Americano") 
 {
 	a6 = prompt(q6);
