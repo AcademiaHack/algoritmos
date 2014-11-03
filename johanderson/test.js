@@ -112,8 +112,42 @@ if (prompt("¿estas pensando en un lenguaje de programación?"+c).toLowerCase()=
       }
     }
     else{
-      if(prompt("¿este lenguaje es declarativo?"+c).toLowerCase()=="si")
+      console.log("ni idea en cual piensas men!");
     }
 	}
+  else {
+    if(prompt("¿este lenguaje es declarativo?"+c).toLowerCase()=="si"){
+      if (prompt("¿este lenguaje es privativo(pago)?"+c).toLowerCase()=="si"){
+        if (prompt("este lenguaje es oracle(base de datos)?"+c).toLowerCase()=="si"){
+          console.log("Oracle! Formal!");
+        }
+        else{
+          console.log("no te gusta pagar por software eh?");
+        }
+      }
+      else if (prompt("¿el logo de este lenguaje es un elefante?").toLowerCase()=="si"){
+        if (prompt("¿estas pensando en Postgresql?"+c).toLowerCase()=="si"){
+          console.log("Postgresql Inpresindible!");
+        }
+        else{
+          console.log("no Postgresql eh? perdi entonces :(");
+        }
+      }
+      else{
+        if (prompt("¿estas pensando en MySql?"+c).toLowerCase()=="si"){
+          console.log("MySql Simple y Funcional!");
+        }
+        else{
+          console.log("no MySql eh? perdi entonces :(");
+        }
+      }
+    }
+    else{
+      console.log("entonces no se nada :(");
+    }
+  }
+}
+else{
+  console.log(":(");
 }
 
