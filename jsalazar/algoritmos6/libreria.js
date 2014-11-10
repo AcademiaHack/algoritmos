@@ -2,7 +2,7 @@ var nombres[];
 var nom = prompt("Introduce un nombre");
 
 //cambiar el numero 1 por una variable cualquiera para que sea standard.
-function hack_delete(1, nombre){
+function hackDelete(1, nombre){
 
 	var arregloNuevo[];
 	
@@ -15,15 +15,18 @@ function hack_delete(1, nombre){
 	}	
 }
 
-function hack_pop(nombre){
+//Extraer el primer item del arreglo y obtener tanto ese item como el resto del arreglo sin el item.
+function hackPop(nombre){
 	for ()
 
 }
 
-function hack_push(elem, nombre){
+//Ingresar un item nuevo al arreglo y obtener el nuevo arreglo.
+function hackPush(elem, nombre){
 
 }
 
-function hack_search(elem, nombre){
+//Buscar un elemento en un arreglo y arrojar su posición.
+function hackSearch(elem, nombre){
 
 }
