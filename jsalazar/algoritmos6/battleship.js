@@ -1,4 +1,5 @@
 
+
 //RECUERDA QUE ASI ES UNA MATRIZ!!!
 //mat = [[1,2,3],[4,5,6],[7,8,9]]
 // 1 4 7
@@ -150,30 +151,30 @@ function hackPrintMatriz (result){
 }
 
 function startGame(mp1,mp2){
-	var mpv1 = hackInitMatriz(mp1.length);
-	var mpv2 = hackInitMatriz(mp2.length);	
+    var mpv1 = hackInitMatriz(mp1.length);
+    var mpv2 = hackInitMatriz(mp2.length);  
 
-	
-	while(true){
+    
+    while(true){
 
-		var coord = entradaCoordenada('Player 1');
-	    mpv2 = atacar(coord, mp2, mpv2);
+        var coord = entradaCoordenada('Player 1');
+        mpv2 = atacar(coord, mp2, mpv2);
 
-	    if(finishGame(mpv2)){
-	    	alert('Gano Player 1');
-	    	break;
-	    }
+        if(finishGame(mpv2)){
+            alert('Gano Player 1');
+            break;
+        }
 
-	    coord = entradaCoordenada('Player 2');
-	    mpv1 = atacar(coord, mp1, mpv1);
+        coord = entradaCoordenada('Player 2');
+        mpv1 = atacar(coord, mp1, mpv1);
 
 
-	    if(finishGame(mpv1)){
-	    	alert('Gano Player 2');
-	    	break;
-	    }
+        if(finishGame(mpv1)){
+            alert('Gano Player 2');
+            break;
+        }
 
-	}    
+    }    
 
 }
 
@@ -208,10 +209,10 @@ function finishGame(mpv){
     for (var i = 0; i < mpv.length; i++) {
         for (var j = 0; j < mpv.length; j++) {
             if(mpv[i][j]=='X'){
-            	hits++;
-            	if(hits == 9){
-            		return true;
-            	}
+                hits++;
+                if(hits == 9){
+                    return true;
+                }
             }
         }
     }
