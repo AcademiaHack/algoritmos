@@ -7,4 +7,4 @@ Crear un archivo denominado **"libreria.js"** en el cual se deben crear las sigu
 
 * **hackPush** al cual se le deben pasar dos parametros denominados "elemen" el cual contiene un elemento y "arr" el cual contiene un listado, esta funcion debe insertar el elemento al final del listado y debe retornar el listado con el elemento insertado al final de la misma.
 
-* **hackSerach** al cual se le deben pasar dos parametros "elemen" el cual contiene un elemento y "arr" el cual contiene  un listado, esta funcion debe buscar el elemento deseado en la lista y retornar la posicion en la que se encuentra el elemento en la lista y sino existe dicho elemento en la lista se debe retornar el valo -1.
+* **hackSearch** al cual se le deben pasar dos parametros "elemen" el cual contiene un elemento y "arr" el cual contiene  un listado, esta funcion debe buscar el elemento deseado en la lista y retornar la posicion en la que se encuentra el elemento en la lista y sino existe dicho elemento en la lista se debe retornar el valo -1.
